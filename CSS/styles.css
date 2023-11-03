@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    text-align: right;
+}
+
+.delete, .like {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.like {
+    color: gray;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity button {
+    padding: 5px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.price {
+    margin: 10px;
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
